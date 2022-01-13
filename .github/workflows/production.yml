@@ -1,0 +1,10 @@
+name: 'Production'
+
+on:
+  workflow_dispatch:
+
+Jobs:
+  Print:
+    runs-on: ubuntu-latest
+    steps:
+      - run echo "This is manually trigger"
