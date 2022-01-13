@@ -3,7 +3,7 @@ name: 'Production'
 on:
   workflow_dispatch:
 
-Jobs:
+jobs:
   Print:
     runs-on: ubuntu-latest
     steps:
